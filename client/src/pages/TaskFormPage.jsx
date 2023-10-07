@@ -39,7 +39,9 @@ function TaskFormPage() {
         }else{
             createTask(dataValid);
         }
-        navigate('/tasks');
+        setTimeout(() => {
+            navigate('/tasks');
+        }, 1000);
     })
 
     return (
