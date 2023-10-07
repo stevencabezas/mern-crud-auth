@@ -41,7 +41,7 @@ function TaskFormPage() {
         }
         setTimeout(() => {
             navigate('/tasks');
-        }, 1000);
+        }, 600);
     })
 
     return (
