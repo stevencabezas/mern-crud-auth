@@ -9,7 +9,7 @@ import taskRoutes from './routes/tasks.routes.js'
 const app = express();
 
 app.use(cors({
-    origin: ["https://task-manager-48d.pages.dev/","http://localhost:5173"],
+    origin: ["https://task-manager-48d.pages.dev","http://localhost:5173"],
     credentials: true
 }));
 app.use(morgan('dev'));
